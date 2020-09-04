@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DND Roller</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"><span class="material-icons">
+                casino
+                </span> Die Roller</a>
+              <span class="navbar-text ml-auto mr-1"><button type="button" class="btn btn-dark btn-sm" onclick="rollAll()">Roll All</button>
+              <button type="button" class="btn btn-danger btn-sm" onclick="refresh()">Reset All</button></span>
+            </nav>
+
+        <section id="Dice-Game">
+
+            <div class="container">
+                <div class="wrapper">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">Die</th>
+                            <th scope="col">Result</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(4)">Roll D4</button></th>
+                            <td id="dice4"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(6)">Roll D6</button></th>
+                            <td id="dice6"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(8)">Roll D8</button></th>
+                            <td id="dice8"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(10)">Roll D10</button></th>
+                            <td id="dice10"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(12)">Roll D12</button></th>
+                            <td id="dice12"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><button type="button" class="btn btn-outline-dark" onclick="roller(20)">Roll D20</button></th>
+                            <td id="dice20"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </hr>
+                </div>
+              </div>    
+
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
