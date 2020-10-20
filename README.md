@@ -8,8 +8,6 @@ Click each button to roll a die.
 Click "Roll All" from top menu to roll all dice at once.
 Click "Reset" from top menu to clear all selections.
 
-### Future Improvements
-* Add sound effect for die roll
-* Save up to three sets of rolls 
-
+### dieroller 2.0!
+I am working on the 2.0 version of this app, here's a wireframe:
 ![New](https://github.com/cpusillo/dieroller/blob/master/newproto.jpg)
