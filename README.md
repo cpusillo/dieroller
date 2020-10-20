@@ -11,3 +11,5 @@ Click "Reset" from top menu to clear all selections.
 ### Future Improvements
 * Add sound effect for die roll
 * Save up to three sets of rolls 
+
+![New](https://github.com/cpusillo/dieroller/blob/master/newproto.jpg)
