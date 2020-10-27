@@ -1,4 +1,4 @@
-# dieroller
+# dieroller version 1.2
 Meant to be a simple web app for rolling several commonly used polyhedral dice.
 I didn't like what I saw when I googled die-rolling applications so I made my own.
 
